@@ -1,4 +1,70 @@
 .box{
     min-width: 120px;
-    min-height: 120px;
+    min-height: 24px;
+    max-width: 120px;
+    max-height: 24px;
+    border:2px solid transparent;
+    background-color: #d3d3d3;
+    border-radius: 4px;
+    margin: 4px;
+    align-content: center;
+    text-align: center;
 }
+#Card-1:hover{
+    color: blue
+    ;
+}
+#Card-2:hover{
+    background-color: red;
+}
+#Card-3:hover{
+    background-color: aqua;
+    transition: 0.4s ease-in-out;
+}
+#Card-4:hover{
+    border-color:black;
+    color:blue;
+    background-color: aqua;
+    transition: 0.4s ease-in-out;
+}
+#Card-5:hover, #Card-5:focus {
+    box-shadow: inset 8em 0 0 0 black;
+    color: white;
+}
+#Card-6:hover, #Card-6:focus {
+    box-shadow: inset 8em 0 0 0 rgb(255, 0, 0);
+    border-color:brown;
+    color:yellow;
+    background-color: rgb(185, 181, 114);
+    transition: 0.4s ease-in-out;
+}
+#Card-7:hover, #Card-7:focus {
+    box-shadow: inset 8em 0 0 0 rgb(0, 255, 132);
+    border-color:rgb(165, 42, 142);
+    color:rgb(247, 255, 6);
+    background-color: rgb(175, 120, 243);
+    transition: 100s ease-in-out;
+}
+#Card-8:hover, #Card-8:focus {
+    box-shadow: inset 8em 0 0 0 rgb(255, 0, 0);
+    border-color:#FF10F0;
+    color:rgb(87, 10, 49);
+    background-color: rgb(8, 49, 55);
+    transition: 0.4s ease-in-out;
+}
+#Card-9:hover, #Card-9:focus {
+    box-shadow: inset 8em 0 0 0 palevioletred;
+    border-color:rgb(40, 98, 49);
+    color:#CFFF04;
+    background-color: dodgerblue;
+    transition: 1.5s ease-in-out;
+}
+#Card-10:hover, #Card-10:focus {
+    box-shadow: inset 8em 0 0 0 rgb(192, 112, 216);
+    border-color:rgb(147, 100, 156);
+    color:#574fef;
+    background-color: rgb(13, 65, 143);
+    transition: 1s ease-in-out;
+}
+
+
